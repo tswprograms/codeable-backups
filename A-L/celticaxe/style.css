@@ -1,0 +1,46 @@
+/**
+Theme Name: Astra Child
+Template: astra
+Theme URI: https://wpastra.com/
+Description: Astra Child Theme 
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+#primary{
+	padding-top: 60px;
+}
+.single .site-content{padding-top:30px;}
+.ast-header-break-point .main-header-bar{background: #fb2056;}
+.site-logo-img{position: relative;top: 1em;}
+.ast-button{background-color: #fb2056;}
+.ast-button:hover{background-color: #1d1d1d;}
+img.custom-logo{display: block;}
+.elementor-12 .elementor-element.elementor-element-3428592 .elementor-heading-title{text-shadow: 0 0 10px rgba(0,0,0, .58);}
+/* MEDIA QUERIES *********************************** MEDIA QUERIES */
+@media screen and (min-width: 540px){
+	header .site-logo-img .custom-logo-link img,
+	.ast-site-title-wrap h1,
+	.ast-site-title-wrap p{
+		position:relative;
+
+	}
+	header .site-logo-img .custom-logo-link img{
+		top: -1em;
+		left: 1em;
+	}
+	.ast-site-title-wrap h1{
+		top: 0;
+	}
+	.ast-site-title-wrap p{
+		top: 0;
+	}
+}
+input.input-person{height: 35px;min-width: 62px;color: #333!important; border: thin solid #539bba !important;}
+.woocommerce .star-rating, .woocommerce .comment-form-rating .stars a, .woocommerce .star-rating::before {
+    color: #2ba056;
+}
+.woocommerce a.button, .woocommerce button.button, .woocommerce .woocommerce-message a.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce input.button, .woocommerce-cart table.cart td.actions .button, .woocommerce form.checkout_coupon .button, .woocommerce #respond input#submit, .wc-block-grid__products .wc-block-grid__product .wp-block-button__link, .elementor-button, .ast-button, a.elementor-button-link.elementor-button.elementor-size-sm{border-radius: 0px;} 
+.home a.elementor-button-link.elementor-button.elementor-size-sm{box-shadow: 0 0 2px 2px rgba(210,210,210, .65); border-radius: 0px;}
